@@ -102,22 +102,32 @@ public void init()
     }
 
     @Override
-    public Optional<Person> findByRut(String rut) {
-        return Optional.empty();
+    public Optional<PersonDTO> findByRut(String rut) {
+        return repository.findByRut(rut).map(PersonDTO::fromEntity);
     }
 
     @Override
-    public List<Person> findAll() {
-        return List.of();
+    public List<PersonDTO> findAll() {
+        List<Person> all = repository.findAll();
+        List<PersonDTO> dtos = new ArrayList<>();
+        all.forEach((p) -> dtos.add(PersonDTO.fromEntity(p)));
+        return  dtos;
     }
 
     @Override
-    public Person update(String rut, Person dto) {
-        return null;
+    public PersonDTO update(String rut, PersonDTO dto) {
+    Person p = repository.findByRut(rut).orElseThrow(() -> new PersonNotFoundException(rut));
+   p.setNombre(dto.getNombre());
+   p.setApellido(dto.getApellido());
+   p.setFechaNacimiento(dto.getFechaNacimiento());
+   p.setDireccion(Direccion.builder().calle(dto.getCalle()).comuna(dto.getComuna()).region(dto.getRegion()).build());
+   Person saved = repository.save(p);
+   return PersonDTO.fromEntity(saved);
     }
 
     @Override
     public void delete(String rut) {
-
+    Person p = repository.findByRut(rut).orElseThrow(() -> new PersonNotFoundException(rut));
+    repository.delete(p);
     }
 }

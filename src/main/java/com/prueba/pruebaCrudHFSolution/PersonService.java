@@ -5,9 +5,9 @@ import java.util.Optional;
 
 public interface PersonService {
     PersonDTO save(PersonDTO dto);
-    Optional<Person> findByRut (String rut);
-    List<Person> findAll();
-    Person update (String rut, Person dto);
+    Optional<PersonDTO> findByRut (String rut);
+    List<PersonDTO> findAll();
+    PersonDTO update (String rut, PersonDTO dto);
     void delete(String rut);
 
 }
