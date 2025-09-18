@@ -2,7 +2,6 @@ package com.prueba.pruebaCrudHFSolution;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -42,7 +41,7 @@ public class PersonController {
  }
 
  @DeleteMapping("/{rut}")
-  public ResponseEntity<void> delete(@PathVariable String rut){
+ public ResponseEntity<Void> delete(@PathVariable String rut) {
      service.delete(rut);
      return ResponseEntity.ok().build();
  }
