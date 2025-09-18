@@ -74,19 +74,20 @@ public void init()
                         .build());
             }
         };
-        Future<PersonDTO> future = executor.submit(task);
-        try {
-            // Timeout de 3s configurable si quieres
-            return future.get(3, TimeUnit.SECONDS);
-        } catch (TimeoutException te) {
-            future.cancel(true);
-            throw new RuntimeException("La operación tardó más de 3 segundos");
-        } catch (ExecutionException ee) {
-            throw new RuntimeException("Error en ejecución: " + ee.getMessage(), ee);
-        } catch (InterruptedException ie) {
-            Thread.currentThread().interrupt();
-            throw new RuntimeException("Operación interrumpida", ie);
-        }
+  //      Future<PersonDTO> future = executor.submit(task);
+  //          try {
+  //          // Timeout de 3s configurable si quieres
+  //          return future.get(20, TimeUnit.SECONDS);
+  //      } catch (TimeoutException te) {
+  //          future.cancel(true);
+  //          throw new RuntimeException("La operación tardó más de 3 segundos");
+  //      } catch (ExecutionException ee) {
+  //          throw new RuntimeException("Error en ejecución: " + ee.getMessage(), ee);
+  //      } catch (InterruptedException ie) {
+  //          Thread.currentThread().interrupt();
+  //          throw new RuntimeException("Operación interrumpida", ie);
+  //      }
+        return dto;
     }
 
     @Scheduled(fixedDelayString = "${app.buffer.flush-interval-ms:10000}")
