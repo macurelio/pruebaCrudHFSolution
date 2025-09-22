@@ -36,6 +36,10 @@ public void init()
 
     @Override
     public PersonDTO save(PersonDTO dto) {
+        if (!RutUtils.isValidRut(dto.getRut())) {
+            throw new IllegalArgumentException("El RUT ingresado no es válido");
+        }
+        dto.setRut(RutUtils.formatRut(dto.getRut()));
         Callable<PersonDTO> task = () -> {
             try {
                 Person p = Person.builder()
@@ -74,20 +78,19 @@ public void init()
                         .build());
             }
         };
-  //      Future<PersonDTO> future = executor.submit(task);
-  //          try {
-  //          // Timeout de 3s configurable si quieres
-  //          return future.get(20, TimeUnit.SECONDS);
-  //      } catch (TimeoutException te) {
-  //          future.cancel(true);
-  //          throw new RuntimeException("La operación tardó más de 3 segundos");
-  //      } catch (ExecutionException ee) {
-  //          throw new RuntimeException("Error en ejecución: " + ee.getMessage(), ee);
-  //      } catch (InterruptedException ie) {
-  //          Thread.currentThread().interrupt();
-  //          throw new RuntimeException("Operación interrumpida", ie);
-  //      }
-        return dto;
+        Future<PersonDTO> future = executor.submit(task);
+            try {
+            // Timeout de 3s configurable si quieres
+            return future.get(20, TimeUnit.SECONDS);
+        } catch (TimeoutException te) {
+            future.cancel(true);
+            throw new RuntimeException("La operación tardó más de 3 segundos");
+        } catch (ExecutionException ee) {
+            throw new RuntimeException("Error en ejecución: " + ee.getMessage(), ee);
+        } catch (InterruptedException ie) {
+            Thread.currentThread().interrupt();
+            throw new RuntimeException("Operación interrumpida", ie);
+        }
     }
 
     @Scheduled(fixedDelayString = "${app.buffer.flush-interval-ms:10000}")
