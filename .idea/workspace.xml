@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="798f1aa8-27a2-4cba-bf31-ec2bdc8f7e5e" name="Changes" comment="CREATION-FRONT-ECOSYSTEM" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;macurelio&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/macurelio/pruebaCrudHFSolution.git&quot;,
+    &quot;accountId&quot;: &quot;c7d75d58-81c7-40a8-912f-51bb84ad8b30&quot;
+  }
+}</component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="PersonServiceTest" />
+    </enabled-run-configurations>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="ms-21" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="32q0YeEtwahKqASseicaJDKCrTz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.PruebaCrudHfSolutionApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonServiceTest.testSavePerson.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.pruebaCrudHFSolution [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pruebaCrudHFSolution [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pruebaCrudHFSolution [install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;testing-improving&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/pruebaCrudHFSolution&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\pruebaCrudHFSolution" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\pruebaCrudHFSolution\pruebaCrudHFSolutionFront\mi-app" />
+      <recent name="C:\pruebaCrudHFSolution\pruebaCrudHFSolutionFront" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.prueba.pruebaCrudHFSolution" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PruebaCrudHfSolutionApplication">
+    <configuration name="PruebaCrudHfSolutionApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.prueba.pruebaCrudHFSolution.PruebaCrudHfSolutionApplication" />
+      <module name="pruebaCrudHFSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.prueba.pruebaCrudHFSolution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebaCrudHFSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.prueba.pruebaCrudHFSolution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.prueba.pruebaCrudHFSolution" />
+      <option name="MAIN_CLASS_NAME" value="com.prueba.pruebaCrudHFSolution.PersonControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebaCrudHFSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.prueba.pruebaCrudHFSolution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.prueba.pruebaCrudHFSolution" />
+      <option name="MAIN_CLASS_NAME" value="com.prueba.pruebaCrudHFSolution.PersonServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonServiceTest" />
+        <item itemvalue="JUnit.PersonControllerTest" />
+        <item itemvalue="Application.PruebaCrudHfSolutionApplication" />
+        <item itemvalue="Application.PruebaCrudHfSolutionApplication" />
+        <item itemvalue="JUnit.PersonServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="798f1aa8-27a2-4cba-bf31-ec2bdc8f7e5e" name="Changes" comment="" />
+      <created>1758132843517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758132843517</updated>
+    </task>
+    <task id="LOCAL-00001" summary="FIRST-COMMIT-CREATE-BRANCH">
+      <option name="closed" value="true" />
+      <created>1758132997466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758132997468</updated>
+    </task>
+    <task id="LOCAL-00002" summary="CREATION-DATA-SQL-SCHEMA">
+      <option name="closed" value="true" />
+      <created>1758133852990</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758133852990</updated>
+    </task>
+    <task id="LOCAL-00003" summary="UPDATING-DEPENDENCIES-DTO-EXCEPTIONS-CREATIONofINTERFACE">
+      <option name="closed" value="true" />
+      <created>1758143510378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758143510378</updated>
+    </task>
+    <task id="LOCAL-00004" summary="CREATE-CONTROLLER-SERVICE-IMPLEMENTATION">
+      <option name="closed" value="true" />
+      <created>1758212624340</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758212624340</updated>
+    </task>
+    <task id="LOCAL-00005" summary="CREATE-CONTROLLER-SERVICE-IMPLEMENTATION">
+      <option name="closed" value="true" />
+      <created>1758213600212</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758213600212</updated>
+    </task>
+    <task id="LOCAL-00006" summary="IMPLEMENTATION-OF-TEST-IMPROVE-SHCEMABD">
+      <option name="closed" value="true" />
+      <created>1758215127331</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758215127331</updated>
+    </task>
+    <task id="LOCAL-00007" summary="CREATION-FRONT-ECOSYSTEM">
+      <option name="closed" value="true" />
+      <created>1758381834481</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758381834481</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FIRST-COMMIT-CREATE-BRANCH" />
+    <MESSAGE value="CREATION-DATA-SQL-SCHEMA" />
+    <MESSAGE value="UPDATING-DEPENDENCIES-DTO-EXCEPTIONS-CREATIONofINTERFACE" />
+    <MESSAGE value="CREATE-CONTROLLER-SERVICE-IMPLEMENTATION" />
+    <MESSAGE value="IMPLEMENTATION-OF-TEST-IMPROVE-SHCEMABD" />
+    <MESSAGE value="CREATION-FRONT-ECOSYSTEM" />
+    <option name="LAST_COMMIT_MESSAGE" value="CREATION-FRONT-ECOSYSTEM" />
+  </component>
+</project>
